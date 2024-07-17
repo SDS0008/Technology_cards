@@ -1,0 +1,39 @@
+.card-1 {
+    border-top: 5px solid goldenrod;
+}
+
+.card-2 {
+    border-top: 5px solid rgb(185, 34, 111);
+}
+
+.card-3 {
+    border-top: 5px solid rgb(16, 20, 135);
+}
+
+.card-4 {
+    border-top: 5px solid rgb(122, 90, 10);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 36px;
+    text-align: center;
+    padding: 8px;
+}
+
+.card-heading {
+    font-size: 20px;
+    color: rgb(34, 22, 22);
+}
+
+.card-descripition {
+    font-size: 15px;
+    color: aqua;
+}
+
+.caed-img {
+    height: 60px;
+    align-self: flex-end;
+}
